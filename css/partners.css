@@ -1,0 +1,18 @@
+.section-partners {
+  background-image: url("../assets/partners-background.png");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.partners {
+  text-align: center;
+}
+
+.partner-logo {
+  margin-bottom: 40px;
+}
+
+.partner-logo img {
+  min-width: 170px;
+}

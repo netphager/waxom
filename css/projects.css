@@ -1,0 +1,163 @@
+.section-projects {
+  background-color: var(--section-project-background-color);
+}
+
+.projects-categories {
+  max-width: 700px;
+  margin: 0px auto 10px;
+}
+
+.projects-categories ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.projects-categories ul li {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.projects-categories ul a {
+  display: inline-block;
+  padding: var(--project-categories-paddings);
+  color: var(--projects-categories-text-color);
+  background-color: var(--projects-categories-background-color);
+  border-radius: 2px;
+  border: var(--project-categories-border);
+  font-size: var(--project-categories-text-size);
+  font-family: var(--font-family-montserrat);
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.projects-categories ul a:hover {
+  color: var(--projects-categories-text-color-hover);
+  background-color: var(--projects-categories-background-color-hover);
+  border: none;
+}
+
+.projects {
+  text-align: center;
+}
+
+.project-item {
+  margin-bottom: 20px;
+  position: relative;
+  cursor: pointer;
+  text-align: center;
+}
+
+.project-item img {
+  position: relative;
+  max-width: 100%;
+}
+
+.link-icon {
+  position: absolute;
+  background: url(../assets/icons/link-icon.png);
+  width: 30px;
+  height: 35px;
+  display: inline-block;
+  margin: 20px 0;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  top: 80px;
+  left: 45%;
+  transform: translate(-50%);
+  display: none;
+}
+
+.lupa-icon {
+  position: absolute;
+  background: url(../assets/icons/lupa-icon.png);
+  width: 30px;
+  height: 35px;
+  display: inline-block;
+  margin: 20px 0;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  top: 80px;
+  right: 45%;
+  transform: translate(50%);
+  display: none;
+}
+
+.project-info {
+  padding: var(--project-info-container-padding);
+  line-height: 1.2;
+  background-color: var(--project-info-container-background-color);
+  position: relative;
+  max-width: 370px;
+  text-align: left;
+  margin: 0 auto;
+  bottom: 2px;
+}
+
+.project-arrow-icon {
+  background: url(../assets/icons/arrow-projects-icon.png);
+  width: 37px;
+  height: 15px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  position: absolute;
+  top: -12px;
+  left: 10px;
+}
+
+.project-info h5 {
+  color: var(--project-info-container-title-text-color);
+}
+
+.project-info p {
+  color: var(--project-info-container-description-text-color);
+}
+
+.project-item:hover .image-overlay-hover {
+  display: block;
+}
+
+.project-item:hover .project-info {
+  background: var(--project-info-container-background-color-hover);
+}
+
+.project-item:hover .project-info .project-arrow-icon {
+  background: url(../assets/icons/arrow-projects-icon-hover.png);
+}
+
+.project-item:hover h5 {
+  color: var(--project-info-container-title-text-color-hover);
+}
+
+.project-item:hover p {
+  color: var(--project-info-container-description-text-color-hover);
+}
+
+.project-item:hover .link-icon {
+  display: block;
+}
+.project-item:hover .lupa-icon {
+  display: block;
+}
+
+.section-button-container {
+  text-align: center;
+}
+
+.section-button-container a {
+  background-color: var(--project-button-background);
+}
+
+.section-button-container a:hover {
+  background-color: var(--project-button-background-hover);
+}
+
+@media only screen and (max-width: 768px) {
+  .projects-categories ul li a {
+    padding: var(--project-categories-paddings-mobile);
+    font-size: var(--project-categories-text-size-mobile);
+  }
+}

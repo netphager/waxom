@@ -1,0 +1,107 @@
+.section-services {
+  background-color: var(--section-services-background-color);
+  text-align: center;
+}
+
+.service-item {
+  position: relative;
+  padding-bottom: 20px;
+  cursor: pointer;
+}
+
+.service-item:hover h3 {
+  color: var(--service-item-title-text-color-hover);
+}
+
+.pencil-icon {
+  background: url(../assets/icons/webdesign-icon.png);
+  width: 58px;
+  height: 50px;
+  display: inline-block;
+  margin: 20px 0;
+  cursor: pointer;
+  background-repeat: no-repeat;
+}
+
+.service-item:hover .pencil-icon {
+  background: url(../assets/icons/web-design-icon-hover.png);
+  background-repeat: no-repeat;
+}
+
+.development-icon {
+  background: url(../assets/icons/development-icon.png);
+  width: 58px;
+  height: 50px;
+  display: inline-block;
+  margin: 20px 0;
+  cursor: pointer;
+  background-repeat: no-repeat;
+}
+
+.service-item:hover .development-icon {
+  background: url(../assets/icons/service-development-icon-hover.png);
+  background-repeat: no-repeat;
+}
+
+.customization-icon {
+  background: url(../assets/icons/customization-icon.png);
+  width: 58px;
+  height: 50px;
+  display: inline-block;
+  margin: 20px 0;
+  cursor: pointer;
+  background-repeat: no-repeat;
+}
+
+.service-item:hover .customization-icon {
+  background: url(../assets/icons/customization-icon-hoover.png);
+  background-repeat: no-repeat;
+}
+
+.marketing-icon {
+  background: url(../assets/icons/marketing-icon.png);
+  width: 78px;
+  height: 40px;
+  display: inline-block;
+  margin: 20px 0;
+  cursor: pointer;
+  background-repeat: no-repeat;
+}
+
+.service-item:hover .marketing-icon {
+  background: url(../assets/icons/marketing-icon-hover.png);
+  background-repeat: no-repeat;
+}
+
+.service-item img {
+  margin: 20px 0;
+}
+
+.service-item h3 {
+  font-size: var(--service-item-title-text-size);
+  color:var(--service-item-title-text-color);
+  font-family: var(--font-family-raleway);
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.service-item p {
+  margin: 0 auto;
+  max-width: 200px;
+  color: var(--service-item-description-text-color);
+}
+
+.service-item p:after {
+  position: absolute;
+  content: "";
+  width: 60px;
+  height: 2px;
+  left: 50%;
+  bottom: 5px;
+  transform: translate(-50%);
+  background-color: rgba(241, 237, 233, 1);
+}
+
+.service-item:hover p:after {
+  background-color: rgba(199, 178, 153, 1);
+}

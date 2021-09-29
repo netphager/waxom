@@ -1,0 +1,51 @@
+.section-purchase {
+  background-image: var(--section-purchase-background-color);
+  padding: 60px 0 50px;
+  position: relative;
+  z-index: 1;
+  bottom: 50px;
+}
+
+.section-purchase h4 {
+  color: var(--purchase-title-text-color);
+  font-size: var(--purchase-title-font-size);
+  font-family: var(--font-family-raleway);
+  font-weight: 400;
+}
+
+.section-purchase h4 span {
+  color: rgba(199, 178, 153, 1);
+}
+
+.section-purchase h6 {
+  color: var(--purchase-subtitle-text-color);
+  font-size: var(--purchase-subtitle-font-size);
+  margin-top: 10px;
+}
+
+.section-purchase a {
+  background-color: var(--purchase-button-color);
+}
+
+.section-purchase a:hover {
+  background-color: var(--purchase-button-color-hover);
+}
+
+.purchase-text {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.purchase-button {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .section-purchase h4 {
+    font-size: var(--purchase-title-font-size-mobile);
+  }
+
+  .section-purchase h6 {
+    font-size: var(--purchase-subtitle-font-size-mobile);
+  }
+}

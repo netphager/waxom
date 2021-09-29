@@ -1,0 +1,183 @@
+.section-slider {
+  width: 100%;
+  /* 800px */
+  min-height: 600px;
+  height: 100vh;
+  position: relative;
+  
+}
+
+.swiper-slide {
+  text-align: center;
+  position: relative;
+  
+}
+
+.slider-image {
+  width: 100%;
+  height: 100%;
+  min-width: 630px;
+}
+
+/* general.css ?! */
+.overlay {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /* using variable */
+  background: rgba(16, 16, 16, 1);
+  opacity: 0.7;
+  top: 0;
+}
+
+.swiper-button-color {
+  /* variable */
+  color: rgba(211, 193, 172, 1);
+}
+
+.swiper-pagination-bullet {
+  background: whitesmoke;
+  width: 12px;
+  height: 12px;
+}
+
+.swiper-pagination-bullet-active {
+  /* variable */
+  border: 1px solid rgba(211, 193, 173, 1);
+  background: none;
+}
+
+.slide-mountain {
+  background-image:url("../assets/slider-imgs/Waxom Hemepage.png");
+  background-repeat: no-repeat;
+  background-size:cover;
+  width:100%;
+  background-position: center;
+  
+}
+
+.slide-desert {
+  background-image:url("../assets/slider-imgs/home_page_slider_2.png");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+}
+
+.slide-tree {
+  background-image:url("../assets/slider-imgs/home_page_slider_3.png");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+}
+
+.slide-sea {
+  background-image:url("../assets/slider-imgs/home_page_slider_4.png");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+}
+
+.slide-rock {
+  background-image:url("../assets/slider-imgs/home_page_slider_5.png");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+}
+
+.swiper-slide .slider-intro {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%);
+  margin: 0 auto;
+  text-align: center;
+}
+
+.swiper-button-arrow {
+  display: block;
+}
+
+.swiper-button-next {
+  right: 150px;
+}
+
+.swiper-button-prev {
+  left: 150px;
+}
+
+.swiper-slide .slider-intro h1 {
+  color: var(--slider-intro-text-color);
+  font-size: var(--slider-intro-title-font-size);
+  font-weight: 800;
+  font-family: var(--font-family-raleway);
+  margin-bottom: 10px;
+}
+
+.swiper-slide .slider-intro h3 {
+  color: var(--slider-intro-text-color);
+  font-size: var(--slider-intro-subtitle-font-size);
+  font-weight: 500;
+  font-family: var(--font-family-raleway);
+  margin-bottom: 10px;
+}
+
+.swiper-slide .slider-intro p {
+  color: var(--slider-intro-text-color);
+  font-size: var(--slider-intro-font-size);
+  font-weight: 300;
+  font-family: var(--font-family-montserrat);
+  margin-bottom: 20px;
+}
+
+
+/* Posts */
+
+.posts-slider-container {
+  width: 100%;
+  height:100%;
+}
+
+.slider-posts {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.slider-post-item {
+  display:flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1024px) {
+  .section-slider {
+    max-height: 85%;
+  }
+  .swiper-slide .slider-intro h1 {
+    font-size: var(--slider-intro-title-font-size-tablet);
+  }
+
+  .swiper-slide .slider-intro h3 {
+    font-size: var(--slider-intro-subtitle-font-size-tablet);
+  }
+  .swiper-button-arrow {
+    display: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .swiper-slide .slider-intro h1 {
+    font-size: var(--slider-intro-title-font-size-mobile);
+  }
+
+  .swiper-slide .slider-intro h3 {
+    font-size: var(--slider-intro-subtitle-font-size-mobile);
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .swiper-slide .slider-intro {
+    top: 28%;
+  }
+}

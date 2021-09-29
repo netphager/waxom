@@ -1,0 +1,216 @@
+:root {
+  /* Header */
+  --header-logo-text-color: #ffffff;
+  --header-logo-font-size: 34px;
+  --navigation-text-color: #ffffff;
+  --navigation-text-color-hover: rgba(199, 178, 153, 1);
+  --navigation-font-size: 14px;
+  --navigation-padding: 5px 14px;
+
+  /* tablet */
+  --header-logo-font-size-tablet: 28px;
+  /* mobile */
+  --header-logo-font-size-mobile: 24px;
+  /* Header end */
+
+  /* Slider */
+
+  --slider-intro-title-font-size: 52px;
+  --slider-intro-subtitle-font-size: 36px;
+  --slider-intro-font-size: 16px;
+  --slider-intro-text-color: #ffffff;
+
+  /* tablet */
+  --slider-intro-title-font-size-tablet: 40px;
+  --slider-intro-subtitle-font-size-tablet: 28px;
+
+  /* mobile */
+  --slider-intro-title-font-size-mobile: 32px;
+  --slider-intro-subtitle-font-size-mobile: 25px;
+  /* Slider end */
+
+  /* Services */
+  --section-services-background-color: #ffffff;
+  --service-item-title-text-color: rgba(85, 85, 85, 1);
+  --service-item-title-text-color-hover: rgba(199, 178, 153, 1);
+  --service-item-title-text-size: 22px;
+  --service-item-description-text-color: rgba(140, 140, 140, 1);
+  /* Services end*/
+
+  /* Realization */
+  --section-realization-background-color: rgba(241, 237, 233, 1);
+  /* Realization end*/
+
+  /* Purchase */
+  --section-purchase-background-color: linear-gradient(
+    90deg,
+    #211b19 0%,
+    #4e3326 100%
+  );
+  --purchase-title-font-size: 28px;
+  --purchase-subtitle-font-size: 18px;
+  --purchase-title-text-color: #ffffff;
+  --purchase-subtitle-text-color: rgba(97, 88, 85, 1);
+  --purchase-button-color: rgba(114, 98, 87, 1);
+  --purchase-button-color-hover: rgba(114, 98, 87, .8);
+
+/* Mobile */
+--purchase-title-font-size-mobile: 25px;
+--purchase-subtitle-font-size-mobile: 16px;
+  /* Purchase end */
+
+  /* Projects */
+  --section-project-background-color: #ffffff;
+  --projects-categories-background-color: #ffffff;
+  --projects-categories-text-color: rgba(140, 140, 140, 1);
+  --project-categories-border: 1px solid rgba(235, 235, 235, 1);
+  --project-categories-paddings: 8px 24px;
+  --project-categories-text-size: 14px;
+  --projects-categories-background-color-hover: rgba(153, 133, 117, 1);
+  --projects-categories-text-color-hover: #ffffff;
+
+  --project-info-container-background-color: rgba(251, 249, 247, 1);
+  --project-info-container-background-color-hover: rgba(53, 47, 45, 1);
+  --project-info-container-padding: 15px;
+  --project-info-container-title-text-color: rgba(199, 178, 153, 1);
+  --project-info-container-title-text-color-hover: #ffffff;
+  --project-info-container-description-text-color: rgba(209, 209, 209, 1);
+  --project-info-container-description-text-color-hover: rgba(199, 178, 153, 1);
+--project-button-background:  rgba(152, 133, 116, 1);
+--project-button-background-hover:  rgba(152, 133, 116, .8);
+/* Tablet */
+
+  /* Mobile */
+  --project-categories-paddings-mobile: 8px 15px;
+  --project-categories-text-size-mobile: 12px;
+
+  /* Projects end */
+
+  /* Devices */
+  --section-devices-background-color: #ffffff;
+  --section-devices-description-color: rgba(140, 140, 140, 1);
+  --section-devices-description-text-size: 16px;
+  --devices-info-list-color: rgba(140, 140, 140, 1);
+  --devices-info-list-text-size: 16px;
+
+  /* Mobile */
+  --section-devices-description-text-size-mobile: 15px;
+  --devices-info-list-text-size-mobile: 15px;
+
+  /* Devices end */
+
+  /* Counters */
+  --section-counters-background-color: linear-gradient(
+    90deg,
+    #211b19 0%,
+    #4e3326 100%
+  );
+  --counter-number-text-color: #ffffff;
+  --counter-number-text-size: 48px;
+  --counter-title-text-color: rgba(199, 178, 153, 1);
+  --counter-title-text-size: 14px;
+
+  /* tablet */
+  --counter-number-text-size-tablet: 38px;
+
+   /* mobile */
+   --counter-number-text-size-mobile: 33px;
+
+  /* Counters end */
+
+  /* Posts */
+  --section-posts-background-color: #ffffff;
+  --post-info-container-border: 1px solid rgba(247, 247, 247, 1);
+  --post-info-title-text-color: rgba(85, 85, 85, 1);
+  --post-info-read-more-text-color: rgba(199, 178, 153, 1);
+  --post-info-container-background-color-hover: rgba(53, 47, 45, 1);
+  --post-info-title-text-color-hover: rgba(199, 178, 153, 1);
+  --post-info-description-text-color-hover: #ffffff;
+
+  --post-calendar-date-background-color: rgba(54, 54, 54, 1);
+  --post-calendar-month-background-color: rgba(36, 36, 36, 1);
+  --post-calendar-date-text-color: #ffffff;
+  --post-calendar-month-text-color: #ffffff;
+  --post-calendar-date-font-size: 24px;
+  --post-calendar-month-font-size: 12px;
+  --post-calendar-date-padding: 5px 10px;
+  --post-calendar-mont-padding: 8px 10px;
+  --post-calendar-date-background-color-hover: rgba(199, 177, 153, 1);
+  --post-calendar-month-background-color-hover: rgba(164, 141, 113, 1);
+
+  /* Posts end */
+
+  
+/* Video Presentation */
+--video-time-duration-font-size:14px;
+--video-time-duration-text-color:rgba(164, 141, 113, 1);
+--video-intro-title-font-size:30px;
+--video-intro-title-text-color:#ffffff;
+--video-intro-font-size:16px;
+--video-intro-text-color:#ffffff;
+
+/* tablet */
+--video-intro-title-font-size-tablet:30px;
+
+/* mobile */
+--video-intro-title-font-size-mobile:20px;
+--video-intro-font-size-mobile: 14px;
+
+
+/* Footer */
+--footer-background-color:  rgba(25, 25, 25, 1);
+--footer-logo-text-color:#ffffff;
+--footer-logo-font-size:34px;
+
+--footer-column-title-text-color:#ffffff;
+--footer-column-title-text-font-size: 24px;
+
+--footer-column-text-color: rgba(85, 85, 85, 1);
+--footer-posts-text-color-hover: rgba(199, 178, 153, 1);
+
+--footer-post-time-added-color: rgba(54, 54, 54, 1);
+--footer-post-time-added-text-size: 12px;
+
+--footer-item-text-color:  rgba(209, 209, 209, 1);
+--footer-item-text-size:  14px;
+
+--footer-copyright-background: rgba(16, 16, 16, 1);
+--footer-copyright-text-color: rgba(85, 85, 85, 1);
+--footer-copyright-font-size: 13px;
+
+
+
+/* Footer end */
+
+
+  /* General */
+  --section-head-title-font-size: 30px;
+  --section-head-title-text-color: rgba(85, 85, 85, 1);
+  --section-head-description-text-color: rgba(140, 140, 140, 1);
+  --section-head-description-font-size: 16px;
+  --section-body-title-font-size: 20px;
+  --section-body-description-font-size: 14px;
+  --read-more-link-text-size: 14px;
+  --button-padding: 15px 50px;
+  --button-text-color: #ffffff;
+  --button-font-size: 14px;
+
+  /* tablet */
+  --section-body-title-font-size-tablet: 18px;
+  --button-padding-tablet: 15px 30px;
+	  
+  /* mobile */
+  --section-head-title-font-size-mobile: 25px;
+  --section-head-description-font-size-mobile: 15px;
+  --section-body-title-font-size-mobile: 16px;
+  --section-body-description-font-size-mobile: 13px;
+
+  /* Typography */
+  --font-family-raleway: "Raleway", sans-serif;
+  --font-family-montserrat: "Montserrat", sans-serif;
+  --font-family-roboto: "Roboto", sans-serif;
+
+  /* Typography end*/
+}
+
+

@@ -1,0 +1,12 @@
+.section-realization {
+  background-color: var(--section-realization-background-color);
+  padding-top: 30px;
+}
+
+.realization-image-container {
+  text-align: center;
+}
+.realization-img {
+  margin: 0 auto;
+  max-width: 100%;
+}

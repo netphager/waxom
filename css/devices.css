@@ -1,0 +1,93 @@
+.section-devices {
+  background-color: var(--section-devices-background-color);
+}
+
+.devices {
+  text-align: center;
+}
+
+.device img {
+  display: inline-block;
+  margin: 0 auto;
+  position: relative;
+  bottom: -53px;
+  max-width: 100%;
+}
+
+.device-info {
+  text-align: left;
+  padding-top: 80px;
+}
+
+.device-info h2 {
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+.device-info p {
+  text-align: left;
+  line-height: 26px;
+  margin-bottom: 35px;
+  font-size: var(--section-devices-description-text-size);
+  color: var(--section-devices-description-color);
+}
+
+.device-info ul {
+  padding-left: 60px;
+  line-height: 22px;
+}
+
+.device-info ul li {
+  position: relative;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.device-info ul li::before {
+  color: white;
+  background-color: rgba(199, 178, 153, 1);
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  border-radius: 100%;
+  margin-left: 5px;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f105";
+  position: absolute;
+  left: -25px;
+  line-height: 19px;
+}
+
+.device-info ul li span {
+  color: var(--devices-info-list-color);
+  font-size: var(--devices-info-list-text-size);
+  font-family: var(--font-family-montserrat);
+  font-weight: 300;
+}
+
+.right-arrow-icon {
+  background: url(../assets/icons/right-arrow-icon.png);
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  margin-right: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .device-info p {
+    font-size: var(--section-devices-description-text-size-mobile);
+  }
+
+  .device-info ul li {
+    font-size: var(--devices-info-list-text-size-mobile);
+  }
+}

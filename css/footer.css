@@ -1,0 +1,208 @@
+.footer {
+  background-color: var(--footer-background-color);
+  padding-top: 50px;
+}
+
+.footer-row {
+  align-items: flex-start;
+}
+
+.footer-logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+
+.footer-logo-container h3 {
+  color: var(--footer-logo-text-color);
+  font-family: var(--font-family-raleway);
+  font-size: var(--footer-logo-font-size);
+  font-weight: 400;
+}
+
+.footer-item {
+  position: relative;
+  line-height: 20px;
+  padding-bottom: 30px;
+}
+
+.footer-item h4 {
+  color: var(--footer-column-title-text-color);
+  font-family: var(--font-family-raleway);
+  font-size: var(--footer-column-title-text-font-size);
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.footer-item p {
+  color: var(--footer-column-text-color);
+  max-width: 250px;
+  text-align: left;
+  margin-bottom: 10px;
+  line-height: 22px;
+}
+
+.footer-item a {
+  color: var(--footer-item-text-color);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--footer-item-text-size);
+  font-weight: normal;
+}
+
+.footer-item .footer-read-more-link::after {
+  color: white;
+  margin-left: 5px;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f0da";
+  position: absolute;
+  bottom: 29px;
+}
+
+.footer-recent-post h6 {
+  margin-bottom: 10px;
+}
+
+.footer-recent-post p {
+  line-height: 15px;
+  border-bottom: 1px solid rgba(36, 36, 36, 1);
+  padding-bottom: 10px;
+}
+
+.footer-item .footer-recent-post:last-child p {
+  border-bottom: none;
+}
+
+.footer-recent-post:hover {
+  cursor: pointer;
+}
+
+.footer-recent-post:hover h6 {
+  color: #ffffff;
+}
+
+.footer-recent-post:hover p {
+  color: var(--footer-posts-text-color-hover);
+}
+
+.footer-twitter-post {
+  line-height: 26px;
+}
+
+.footer-twitter-post p {
+  line-height: 15px;
+}
+
+.footer-twitter-post span a {
+  color: rgba(0, 191, 243, 1);
+  cursor: pointer;
+}
+
+.footer-post {
+  color: var(--footer-post-time-added-color);
+  font-size: var(--footer-post-time-added-text-size);
+}
+
+.footer-twitter-post h6 {
+  margin-bottom: 10px;
+  border-bottom: 1px solid rgba(36, 36, 36, 1);
+  padding-bottom: 10px;
+  max-width: 205px;
+}
+
+.footer-twitter-post:last-child h6 {
+  border-bottom: none;
+}
+
+.copyright {
+  background-color: var(--footer-copyright-background);
+}
+
+.copyright-inner {
+  padding: 60px 0;
+}
+
+.copyright ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.copyright-list li {
+  border-right: 1px solid rgba(37, 37, 37, 1);
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.copyright-list li:last-child {
+  border: none;
+}
+
+.copyright-list a {
+  padding: 0px 8px;
+  color: var(--footer-copyright-text-color);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--footer-copyright-font-size);
+  font-weight: 300;
+}
+
+.copyright-list span {
+  color: rgba(149, 149, 149, 1);
+}
+
+.footer-link-active:hover {
+  color: var(--footer-posts-text-color-hover);
+}
+
+.theme-maker-list li {
+  border-right: 1px solid rgba(37, 37, 37, 1);
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.theme-maker-list li:last-child {
+  border: none;
+}
+
+.theme-maker-list a {
+  padding: 0px 8px;
+  color: var(--footer-copyright-text-color);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--footer-copyright-font-size);
+  font-weight: 300;
+}
+
+.theme-maker-list span {
+  color: rgba(149, 149, 149, 1);
+}
+
+@media only screen and (max-width: 440px){
+  .copyright-inner-row {
+    align-items: flex-start;
+  }
+
+  .copyright ul {
+  flex-direction: column;
+  align-items: flex-start;
+  }
+
+  .copyright-list li {
+    margin-bottom: 5px;
+  }
+
+  .theme-maker-list li {
+    margin-bottom: 5px;
+  }
+}
